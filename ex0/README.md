@@ -49,7 +49,8 @@ Try to reach the firsts wordpress containers ([http://localhost:XXXX](http://loc
 You can specify the port like this `docker run -d -p 8080:80 wordpress`.
 This container should be reachable through [http://localhost:8080](http://localhost:8080).
 
-Now is good time to check the following commands:
+Now is good time to look at the following commands:
+
 * `docker logs [id|name]`
 * `docker rename [id|name] [newname]` (by default, containers name are adjective_noun)
 * `docker stats`
