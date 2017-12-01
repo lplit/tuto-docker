@@ -31,25 +31,23 @@ docker run -d -p 80 wordpress
 # -p Publish a container's port(s) to the host
 ```
 
-Now rush to [http://localhost](http://localhost)!!!
-
-You can run multiple instances of wordpress!!!
+You can easily run multiple instances of wordpress on the same machine.
 
 ```
 docker run -d -p 80 wordpress
 docker run -d -p 80 wordpress
 ```
-
-But? Wait... You can't reach them through [http://localhost](http://localhost) right?
-More over how could they all listen on the same 80 port!
 
 Try `docker ps`.
 It lists all the running containers.
+
 In the `PORT` column, you should see something like `0.0.0.0:XXXXX->80/tcp`.
 Docker randomize the listening port, even if the application asked for the same 80 port.
-You can specify the port like this `docker run -d -p 8080:80 wordpress`, now the container should be reachable [http://localhost:8080](http://localhost:8080).
 
-Try to reach the firsts wordpress containers.
+Try to reach the firsts wordpress containers ([http://localhost:XXXX](http://localhost:XXXX)).
+
+You can specify the port like this `docker run -d -p 8080:80 wordpress`.
+This container should be reachable through [http://localhost:8080](http://localhost:8080).
 
 Now is good time to check the following commands:
 * `docker logs [id|name]`
