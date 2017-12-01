@@ -48,10 +48,12 @@ It lists all the running containers.
 In the `PORT` column, you should see something like `0.0.0.0:XXXXX->80/tcp`.
 Docker randomize the listening port, even if the application asked for the same 80 port.
 You can specify the port like this `docker run -d -p 8080:80 wordpress`, now the container should be reachable [http://localhost:8080](http://localhost:8080).
+
 Try to reach the firsts wordpress containers.
 
 Now is good time to check the following commands:
-* `docker rename [id|name]` (by default, containers name are adjective_noun)
+* `docker logs [id|name]`
+* `docker rename [id|name] [newname]` (by default, containers name are adjective_noun)
 * `docker stats`
 * `docker pause [id|name]` (freezes the processes)
 * `docker unpause [id|name]`
