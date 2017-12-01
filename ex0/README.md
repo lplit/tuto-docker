@@ -56,6 +56,6 @@ Now is a good time to look at the following commands:
 * `docker stats`
 * `docker pause [id|name]` (freezes the processes)
 * `docker unpause [id|name]`
-* `docker stop [id|name]` (send signal)
+* `docker stop [id|name]` (sends signal)
 * `docker start [id|name]`
 * `docker restart [id|name]`
