@@ -52,7 +52,7 @@ This container should be reachable through [http://localhost:8080](http://localh
 Now is good time to look at the following commands:
 
 * `docker logs [id|name]`
-* `docker rename [id|name] [newname]` (by default, containers name are adjective_noun)
+* `docker rename [id|name] [newname]` (by default, container names are adjective_noun)
 * `docker stats`
 * `docker pause [id|name]` (freezes the processes)
 * `docker unpause [id|name]`
