@@ -8,4 +8,10 @@ Use the following command to list the images avaible on your machine.
 docker images
 ```
 
-If you have done ex0, you should at least have the ubuntu image.
+If you have done ex0, you should at least have the ubuntu and the wordpress images.
+
+Images are built layers after layers, you can inspect these layers like this:
+
+```
+docker history ubuntu
+```
