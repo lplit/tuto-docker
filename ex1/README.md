@@ -36,6 +36,7 @@ Run a container from this image.
 Docker can commit the modification of the file system made by a container into a new image. (see `docker diff` and `docker commit` for more details)
 
 The `RUN` instruction of the Dockerfile allows you to run some processes during the build step.
+
 Rewrite the `Dockerfile` to:
 
 1. `COPY` the `hello_world.c`,
