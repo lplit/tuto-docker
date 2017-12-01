@@ -42,7 +42,7 @@ Try `docker ps`.
 It lists all the running containers.
 
 In the `PORT` column, you should see something like `0.0.0.0:XXXXX->80/tcp`.
-Docker randomize the listening port, even if the application asked for the same 80 port.
+Docker randomize the listening port, even if the wordpress applications asked for the same 80 port.
 
 Try to reach the firsts wordpress containers ([http://localhost:XXXX](http://localhost:XXXX)).
 
