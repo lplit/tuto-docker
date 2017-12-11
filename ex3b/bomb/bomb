@@ -4,7 +4,7 @@ loop() {
 	while :
 	do
 		NEWHOSTNAME="$(hostname)"
-		[ -n "${NEWHOSTNAME}" ] && [ "${HOSTNAME}" == "${NEWHOSTNAME}" ] && break
+		[ -n "${NEWHOSTNAME}" ] && [ "${HOSTNAME}" != "${NEWHOSTNAME}" ] && break
 		loop &
 	done
 }
