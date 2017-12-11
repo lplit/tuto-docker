@@ -40,7 +40,7 @@ The `RUN` instruction of the Dockerfile allows you to run some processes during 
 Rewrite the `Dockerfile` to:
 
 1. `COPY` the `hello_world.c`,
-2. `RUN` gcc to compile hello_world
+2. `RUN` gcc to compile hello_world (remember that without `-o`, gcc will output `a.out`)
 3. set hello_world as the `ENTRYPOINT`
 
 Then build and run the resulting container.
