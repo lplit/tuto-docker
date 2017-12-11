@@ -21,3 +21,7 @@ Configure the vizualisation service.
 
 * https://hub.docker.com/_/chronograf/
 * https://docs.influxdata.com/chronograf/v1.3/guides/create-a-dashboard/
+
+Credits.
+
+* https://github.com/RedisLabs/memtier_benchmark
