@@ -3,7 +3,8 @@
 CPU:
 
 1. Build the cpuburn image
-2. Find an option in docker to run this container with limited cputime
+2. Run the container and measure its cpu consumption with `docker stats`
+3. Find an option in docker to slow down its cpu consumption (ex: 1% of cpu)
 
 Pids:
 
