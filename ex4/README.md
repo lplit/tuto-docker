@@ -18,5 +18,6 @@ You should be able to boot the project without vizualization, simply run `docker
 * collector has `docker.sock` mounted. It can talk to the daemon to collect resource usages. (WARNING: why is this a poor security design?)
 
 Configure the vizualisation service.
-https://hub.docker.com/_/chronograf/
-https://docs.influxdata.com/chronograf/v1.3/guides/create-a-dashboard/
+
+* https://hub.docker.com/_/chronograf/
+* https://docs.influxdata.com/chronograf/v1.3/guides/create-a-dashboard/
